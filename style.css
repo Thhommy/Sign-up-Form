@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@font-face {
+    font-family: my-cool-font;
+    src: url(./fonts/Norse-Bold.otf);
+  }
+
+
+body{
+    display: flex;
+}
+
+#left-side,
+#right-side{
+    height: 100vh;
+}
+
+#left-side{
+
+    background-image: url("./images/fern.jpg");
+    background-size: 45vw, 100vh;
+    width: 45vw;
+}
+
+
+#right-side{
+    font-family: 'roboto';
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    width: 55vw;
+}
+
+.hero{
+    height: 30vh;
+    background-color: aqua;
+    padding-left: 30px;
+}
+
+form{
+    height: 40vh;
+    background-color: bisque;
+}
+
+.footer{
+    height: 30vh;
+    background-color: blueviolet;
+}
+
+form{
+    display: flex;
+}
